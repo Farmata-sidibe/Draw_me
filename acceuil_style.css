@@ -27,11 +27,10 @@
     }
     
     .gallery {
-        position: absolute;
-        bottom: -28px;
         display: grid;
+        align-items: center;
         justify-content: center;
-        left: 375px;
+        margin-top: -152px;
     }
     
     h1 {
@@ -59,8 +58,8 @@
     .btn {
         display: grid;
         grid-template-columns: 0fr 1fr;
-        gap: 105px;
-        margin: 50px 0px 0px 37px;
+        gap: 143px;
+        margin: 50px 0px 0px 36px;
     }
     
     .text {
@@ -72,7 +71,6 @@
         display: grid;
         grid-template-columns: 0fr 1fr;
         gap: 68px;
-        margin-bottom: -31px;
     }
     
     .gallery .image-container .image {
@@ -161,27 +159,18 @@
             display: grid;
             grid-template-columns: 0fr 1fr;
             gap: 68px;
-            position: absolute;
-            top: -734%;
-            left: 59%;
         }
         .btn {
             display: grid;
             grid-template-columns: 0fr 1fr;
             gap: 105px;
             margin: 50px 0px 0px 37px;
-            position: relative;
-            top: -435%;
-            left: 58%;
         }
     }
     
     @media screen and ( max-width:1034px) {
         .gallery .image-container {
             grid-template-columns: 1fr;
-            position: absolute;
-            top: -376px;
-            left: -23px;
             gap: 13px;
         }
         .gallery {
@@ -194,8 +183,5 @@
             grid-template-columns: 1fr;
             gap: 41px;
             padding-left: 49px;
-            position: absolute;
-            bottom: -507px;
-            left: -69px;
         }
     }

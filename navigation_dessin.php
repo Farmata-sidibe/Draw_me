@@ -59,22 +59,7 @@
     <button id="btn_circle">&#9675;</button>
     <button id="btn_triangle">&#9651;</button>
     <button id="btn_text">T</button>
-    <button class='btn-bold'> <strong>B</strong></button>
-                <button class='btn-italic'><i>I</i></button>
-    <select id="color-select">
-                    <option value="">Couleurs</option>
-                    <option value="color color-red" data-color="red" id="btnRed">Rouge</option>
-                    <option value="color color-blue" data-color="blue" id="btnGreen">Bleu</option>
-                    <option value="color color-black" data-color="black" id="btnBlue">Noir</option>
-                    <option value="color color-green" data-color="green">Vert</option>
-                </select>
 
-                <select id="font-select">
-                    <option value="">Polices</option>
-                    <option value="Open San">Open San</option>
-                    <option value="Lato">Lato</option>
-                    <option value="Merriweather">Merriweather</option>
-                </select>
 
     </div>
     <img src="./image/Logo_final-draw_me.png" class="logo" alt="logo">
